@@ -1,0 +1,877 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+
+nav {
+    text-align: center;
+    background-color: rgb(44, 41, 41);
+    height: 80px;
+    width: 100%;
+}
+
+.header {
+    position: fixed;
+}
+
+.enlace {
+    text-align: center;
+    background-color: rgb(236, 221, 0);
+    font-size: 30px;
+    height: 80px;
+    width: 150px;
+    padding: 5px;
+    position: absolute;
+    color: black;
+}
+
+.enlace h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.enlace p {
+    margin: 0;
+    margin-top: -10px;
+    padding: 0;
+    font-size: 20px;
+}
+
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 40px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 15px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.checkbtn {
+    font-size: 30px;    
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/*Hasta aca fue el encabezado*/
+
+.home {
+    margin-top: 80px;
+    height: 10  00px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    background-image: url(img/huascaran.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 1000px auto;
+    width: 1000px;
+    height: 700px;  
+    margin-top: 50px;
+}       
+
+.home h1 {
+    color: rgb(44, 41, 41);
+    font-size: 60px
+}
+
+.home p {
+    text-align: center;
+    background-color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    width: 250px;
+}
+
+.rayis {
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+        display: flex;
+    width: 450px;
+    height: 3px;
+    background-color: black;
+}
+
+.rayiso {
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 600px;
+    height: 3.5px;
+    background-color: black;
+}
+
+.rayisa {
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 600px;
+    height: 3px;
+    background-color: black;
+}
+
+/*HASTA ACA SE HISO HOME*/
+
+.about {
+    margin-top: 150px;
+    height: 10  00px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about h1 {
+    text-align: center;
+    width: 220px;
+    background-color: white;
+    color: rgb(44, 41, 41);
+    font-size: 35px;
+}
+
+.about p {
+    font-family: 'Nunito', sans-serif;
+    line-height: 2;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(87, 87, 87);
+    width: 800px;
+}
+
+/*HASTA ACA SE HISO SOBRE NOSOTROS*/
+
+.title-habi {
+    font-size: 40px;
+    margin-top: 150px;
+    width: 100%;
+    margin-bottom: 0;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+.title-habi h1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    background-color: white;
+    color: rgb(44, 41, 41);
+    font-size: 35px;
+}
+
+
+.habitaciones {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.habi1 {
+    display: flex;
+}
+
+.dor {
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+    background-size: cover;
+}
+
+.sec1 {
+    background-image: url(img/MATRI1.png);
+
+}
+
+.sec1:hover {
+    background-image: url(img/MATRI.jpeg);
+
+}
+
+.sec2 {
+    background-image: url(img/DOBLE1.png);
+
+}
+
+.sec2:hover {
+    background-image: url(img/DOBLE.jpeg);
+
+}
+
+.sec3 {
+    background-image: url(img/TRIPLE1.png);
+
+}
+
+.sec3:hover {
+    background-image: url(img/TRIPLE.jpeg);
+
+}
+
+.sec4 {
+    background-image: url(img/CUADRUPLE1.png);
+
+}
+
+.sec4:hover {
+    background-image: url(img/CUADRUPLE.jpeg);
+
+}
+
+
+
+
+/*HASTA ACA FUE LA SECCIÓN DE HABITACIONES*/
+
+
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 150px;
+    align-items: center;
+}
+
+.services h1{
+    text-align: center;
+    width: 400px;
+    font-size: 35px;
+    background-color: white;
+
+}
+
+.services-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-services {
+    display: flex;
+}
+
+.cajota {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    height: 300px;
+    margin: 10px 50px;
+    width: 300px;
+}
+
+.icons1 {
+    background-image: url(img/icon/cochera.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+
+.icons2 {
+    background-image: url(img/icon/icons8-desayuno-64.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+
+.icons3 {
+    background-image: url(img/icon/lavanderia.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+
+.icons4 {
+    background-image: url(img/icon/wifi.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+
+.icons5 {
+    background-image: url(img/icon/terma.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+
+/*HASTA ACA FUE NUESTRO SERVICIOSS*/
+
+.gallery {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery h1 {
+    background-color: white;
+    width: 180px;
+    font-size: 35px;
+}
+
+.royos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 400px;
+    height: 3px;
+}
+
+.foto {
+    display: flex;
+}
+
+.foto h1 {
+    background-color: transparent;
+}
+
+.fotito1 {
+    background-image: url(img/gallery1.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    width: 400px;
+    margin: 30px 30px;
+    color: transparent;
+}
+
+.fotito2 {
+    background-image: url(img/gallery2.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    width: 400px;
+    margin: 30px 30px;
+    color: transparent;
+}
+
+.fotito3 {
+    background-image: url(img/gallery3.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    width: 400px;
+    margin: 30px 30px;
+    color: transparent;
+}
+
+.fotito:hover { 
+    background-image: linear-gradient(
+        0deg,
+        rgba(171, 150, 127, 0.500),
+        rgba(171, 150, 127, 0.500) 
+    ), url(img/telito.jpg);
+    color: white;
+}
+
+
+/*TURISTICOS*/
+
+.turistic {
+    display: flex;
+    flex-direction: column;
+}
+
+.turip1 {
+    display: flex;
+}
+
+.turip{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    width: 400px;
+    height: 400px;
+}
+
+.turip h1 {
+    background-color: #ab967fb4;
+    color: white;
+    width: auto;
+    padding: 10px;
+}
+
+.turis1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    background-image: url(img/laguna69.jpg);
+    background-size: cover;
+}
+
+.turis2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    background-image: url(img/camposanto.jpg);
+    background-size: cover;
+}
+
+.turis3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    background-image: url(img/pastoruri.jpeg);
+    background-size: cover;
+}
+
+.turis4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    background-image: url(img/churup.jpg);
+    background-size: cover;
+}
+
+.turis5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    background-image: url(img/paron.png);
+    background-size: cover;
+}
+
+.turis6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    background-image: url(img/chavin.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+/*HASTA ACA FUE, VER Y HACER*/
+
+.aryas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 400px;
+    height: 3px;
+    margin-bottom: 100px;
+}
+
+
+.contact {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact h1 {
+    background-color: white;
+    font-size: 35px;
+    width: 300px;
+}
+
+.dates {
+    display: flex;
+}
+
+.dats {
+    margin: 0 20px;
+}
+
+.total {
+    display: flex;
+}
+
+
+.formis {
+    width: 50%;
+    padding-left: 15px;
+    border-right: 3px solid #ffbb00;
+}
+
+
+.telefono, .email, .direccion {
+    align-items: center;
+    display: flex;
+}
+
+.formus {
+    min-height: 60vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    padding: 0 55px;
+    text-align: center;
+    width: 100%;
+
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.formus h2 {
+    color: #283629;
+    font-size: 35px;
+}
+
+label {
+    color: #283629;
+    margin-bottom: 0px;
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+input {
+    width: 600px;    
+    height: 30px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: #ececec;
+    padding: 0 5px;
+}
+
+textarea {
+    width: 600px;    
+    height: 70px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: #ececec;
+    padding: 0 5px;
+}
+
+.form-txt {
+    display: flex;
+    margin-top: 5px;
+    width: 300px    ;
+}
+
+.form-txt a{
+    display: flex;
+    text-decoration: none;
+    color: #283629;
+    width: 300px;
+}
+
+.btn {
+    margin-top: 15px;
+    background-color: #2b2b2b;
+    color: white;
+}
+
+
+footer {
+    background-color: black;
+    height: 20px;
+    width: 100%;
+}
+
+footer p {
+    color: white;
+}
+
+
+@media (max-width: 720px) {
+
+    * {
+        width: auto;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .home h1 {
+        text-align: center;
+    }
+
+
+    .home {
+        width: 100%;
+    }
+
+    .img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .rayis {
+        background-color: transparent;
+    }
+
+    .rayis h1 {
+        font-size: 20px;
+    }
+
+    .rayiso {
+        background-color: transparent;
+    }
+    .about p {
+        width: 95%;
+    }
+
+    .title-habi {
+        width: 100%;
+    }
+
+    .title-habi h1 {
+        font-size: 20px;
+    }
+
+    .habitaciones {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .title-principal h1 {
+        font-size: 20px;
+    }
+
+
+    .habi1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 300px;
+    }
+
+    .rayisa {
+        background-color: transparent;
+    }
+
+    .rayisa h1 {
+        font-size: 20px;
+    }
+
+    .services-section {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .section-services {
+        display: flex;
+        flex-direction: column  ;
+    }
+
+    .royos {
+        background-color: transparent;
+    }
+
+    .foto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fet {
+        width: 300px;
+        height: 300px;
+    }
+
+    .reyes {
+        background-color: transparent;
+    }
+
+    .turistic {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .turip1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .turip {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+        height: 470px;
+    }
+    .turip div {
+        width: 300px;
+        height: 300px;
+        margin: 0;
+    }
+
+
+    .aryas {
+        background-color: transparent;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .contact {
+        height: auto;
+    }
+
+    .royos h1 {
+        font-size: 20px;
+    }
+
+    .turip {
+        width: 300px;
+        height: 300px;
+    }
+
+    .dates {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: center;
+        margin-top: 0;
+        height: auto;
+    }
+    
+    .dats {
+        margin: 5px 0;
+    }
+
+    .total {
+            width: 450px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;  
+    }
+
+    .formus {
+        width: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;  
+    }
+
+    .input-group {
+        width: 450px;
+        justify-content: center;
+        align-items: center;
+        margin: 0;  
+    }
+
+    form {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    label {
+        width: auto;
+    }
+
+    input {
+        width: auto;
+    }
+
+    textarea {
+        width: auto;
+    }
+
+     
+
+
+
+
+}
